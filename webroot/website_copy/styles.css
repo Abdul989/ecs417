@@ -1,0 +1,147 @@
+*{
+    background-color: #2b2b2b;
+    box-sizing: border-box;
+}
+/*HEADER*/
+/*uses the flex to allow us to be able to resize the spaces out all header elements from the senter and the use padd to space*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+/*Makes all the texts not headings or subheadings white*/
+li, a{
+    font-family: Assistant,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #e8fafd;
+    text-decoration: none;
+}
+
+/*Removes the 'bullet-point' style from the list*/
+.nav_links{
+    list-style: none;
+}
+
+/*Puts the navigation links on a line and spaces it*/
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+/*access the a-tags to add a transition to the nav link */
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+/*when hovering over the navlink changes color to brown-ish*/
+.nav_links li a:hover{
+    color: brown;
+}
+
+
+.admin{
+    padding: 9px 25px;
+    background-color: rgb(88, 88, 88);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    
+    
+}
+
+admin i:hover{
+    background-color:  rgba(0, 136, 169, 0.8);
+    transition: all 0.3s ease 0s;
+}
+
+/*MIDDLE*/
+
+.topBar{
+
+    text-align: right;
+    display: inline;
+    
+   
+ }
+
+ 
+ .sectionHeads{
+     font-family: Calibre, 
+     "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, 
+     Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+     font-size: 20px;
+     color: rgb(231, 231, 231);
+ 
+ }
+ 
+ .sectionDiv{
+     font-family: Calibre, 
+     "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, 
+     Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+     font-size: 16px;
+     display: block;
+     color: rgb(231, 231, 231); 
+     text-align: left;
+     padding-left: 5rem;
+     padding-right: 5rem;
+     padding-top: 13rem;
+ 
+ }
+ 
+ #name{
+     font-family: Calibre, 
+     "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, 
+     Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+     color: rgb(190, 197, 209);
+     font-weight: bolder;
+     font-size: 70px;
+ 
+ }
+ 
+ #compSci{
+ 
+     font-family: Calibre, 
+     "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, 
+     Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+     color: rgb(134, 141, 153);
+     font-weight: bolder;
+     font-size: 70px;
+ 
+ }
+ 
+ .topName{
+     padding-top: 3rem;
+     padding-bottom: rem;
+     padding: 6rem;
+     padding-left: 12rem;
+ }
+ 
+ .workTitle{
+         display: inline;
+ }
+ 
+
+/*BLOG*/
+
+.form-style{
+    max-width: 500px;
+    margin: 2rem auto;
+    border:2px solid white;
+    padding:2rem;
+    
+}
+
+.login-page{
+    max-width: 500px;
+    margin: 2rem auto;
+    border:2px solid white;
+    padding:3rem;   
+    font-family: Calibre, 
+     "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, 
+     Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+    font-size: 16px;
+    color: rgb(231, 231, 231); 
+}
